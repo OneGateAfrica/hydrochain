@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stats",
+  "info": {
+    "singularName": "stat",
+    "pluralName": "stats",
+    "displayName": "stats"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "object": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "statNumber": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}
